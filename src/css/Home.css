@@ -4,10 +4,6 @@
   padding-bottom: 50px; 
 }
 
-.cnt {
-  
-}
-
 .cnt h2 {
   font-size: 1.2rem;
   margin: 25px auto;
@@ -15,7 +11,8 @@
 }
 
 .home-img {
-  width: 100%;
+  width: 90%;
+  margin: auto;
   height: 500px;
   background-image: url('https://drraa3ej68s2c.cloudfront.net/wp-content/uploads/2019/02/24211315/0f4be43c4171da2bfcd53c97632fc0c8c1c86f858206393bcf7598f2b2ac6da7-770x443.jpg');
   background-size: cover;
@@ -30,6 +27,8 @@
 }
 
 .thumbnail-cnt {
+  width: 90%;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
