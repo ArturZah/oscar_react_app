@@ -9,11 +9,11 @@ export default function Actors(props) {
 
       return (
         <div className="foto-tile">
-          <a>
+          <Link to={`/actors/${person.url}`}>
             <div className="actor-img" style={{ backgroundImage: "url(" + person.img_src + ")"}}>
 
             </div>
-          </a>
+          </Link>
           <h3 align="center">{ person.name }</h3>
         </div>
       );

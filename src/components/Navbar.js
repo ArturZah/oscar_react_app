@@ -11,7 +11,6 @@ export class Navbar extends Component {
           <li><NavLink className="nav-menu-btn" exact to="/">Home</NavLink></li>
           <li><NavLink className="nav-menu-btn" to="/actors">Best Actors</NavLink></li>
           <li><NavLink className="nav-menu-btn" to="/actress">Best Actress</NavLink></li>
-          <li><NavLink className="nav-menu-btn" to="/films">Best Films</NavLink></li>
         </ul>
       </nav>
     )

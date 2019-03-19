@@ -13,7 +13,7 @@
 .header-nav h2 {
   width: 185px;
   font-size: 1.2rem;
-  margin: 25px auto;
+  margin: 25px auto 25px 0;
   text-align: left;
 
 }
@@ -24,7 +24,7 @@
   background-color: #000;
   color: #fff;
   font-size: .8rem;
-  margin-left: 25px;
+  margin: 25px auto 25px 25px;
   transition: all 0.3s ease-in-out;
 }
 
@@ -63,5 +63,16 @@
 .foto-tile h3 {
   height: 24px;
   margin: 10px auto;
+}
+
+.image-profile {
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+
+.actor-dsc-ctn {
+  width: 90%;
+  margin: auto;
 }
 
